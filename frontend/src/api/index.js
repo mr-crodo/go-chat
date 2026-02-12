@@ -1,4 +1,4 @@
-var socket = new WebSocket('ws//:localhost:9000/ws');
+var socket = new WebSocket('ws://localhost:9000/ws');
 
 let connect = (cb) => {
     console.log("Connecting")
@@ -9,6 +9,7 @@ let connect = (cb) => {
 
     socket.onmessage = (msg) => {
         console.log('Message from websocket: ', msg);
+        cb(msg);
     }
 
     socket.onclose = (event) => {
@@ -20,7 +21,9 @@ let connect = (cb) => {
     }
 };
 
-let sendMesg = (msg) => {
+let sendMessage = (msg) => {
     console.log("Sending message: ", msg);
     socket.send(msg);
 }
+
+export { connect, sendMessage };

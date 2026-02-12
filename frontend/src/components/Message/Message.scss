@@ -1,0 +1,34 @@
+.Message {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  padding: 0.8rem 1.2rem;
+  border-radius: 16px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  background: var(--msg-received);
+  color: var(--text-main);
+  border-bottom-left-radius: 4px;
+  align-self: flex-start;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  animation: slideIn 0.3s ease-out;
+
+  &.me {
+    background: var(--msg-sent);
+    align-self: flex-end;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 4px;
+    color: #fff;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

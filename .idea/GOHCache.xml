@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Client">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/backend/pkg/websocket/client.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Message">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/backend/pkg/websocket/client.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Pool">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/backend/pkg/websocket/pool.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/backend/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1770886113520" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/backend/pkg/websocket/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1770883733962" />
+              <option name="schema">
+                <list>
+                  <option value="Client" />
+                  <option value="Message" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/backend/pkg/websocket/pool.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1770885665368" />
+              <option name="schema">
+                <list>
+                  <option value="Pool" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/backend/pkg/websocket/websocket.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1770886007606" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="client" value="Client" />
+        <entry key="message" value="Message" />
+        <entry key="pool" value="Pool" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1770875121293" />
+  </component>
+</project>
